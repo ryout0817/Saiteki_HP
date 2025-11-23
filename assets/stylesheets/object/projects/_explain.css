@@ -1,6 +1,6 @@
 .p-explain {
   max-width: 100%;
-  padding: 40px 140px;
+  padding: 40px 76px;
   display: flex;
   flex-flow: column;
   gap: 24px;
@@ -37,14 +37,13 @@
   .p-explain {
     margin-top: 40px;
     max-width: 390px;
-    height: 346px;
     padding: 0;
     gap: 16px;    
   }
 
   .p-explain__title {
     font-family: Noto Sans JP;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 43.44px;
     letter-spacing: 0.005em;

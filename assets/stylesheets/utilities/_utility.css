@@ -24,13 +24,13 @@
   }
 }
 
-@media screen and (min-width: 415px) { /* 390以上 */
+@media screen and (min-width: 415px) { /* 415以上 */
   .u-hidden-spUp {
     display: none !important;
   }
 }
 
-@media screen and (max-width: 414px) { /* sp以下 */
+@media screen and (max-width: 414px) { /* 414px以下 */
   .u-hidden-spUnder {
     display: none !important;
   }

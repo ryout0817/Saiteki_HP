@@ -63,8 +63,9 @@
             <!-- <img class="p-firstview__logo u-hidden-tb" src="<?php echo get_template_directory_uri(); ?>/assets/images/common/Logo.png" alt="ヘッダーロゴ"> -->
             <div class="p-firstview__contents">
               <p class="p-firstview__title">
-                エンジニアのキャリアに<br class="p-firstview__titleHide"><br class="u-hidden-spUp">
-                徹底的に向き合い続ける
+                エンジニアの<br class="u-hidden-spUp">
+                キャリアに<br class="u-hidden-spUp"><br class="u-hidden-spUnder"><br class="u-hidden-spUp u-hidden-spUnder">
+                徹底的に<br class="u-hidden-spUp">向き合い続ける
               </p>
               <p class="p-firstview__text">
               「適切にキャリアアップができない」「生成AIの台頭を不安に感じる」<br>
@@ -77,7 +78,8 @@
         <section><!--エクスプレイン-->
           <div class="p-explain">
             <p class="p-explain__title">
-            “わからないまま”のキャリアに<br class="u-hidden-spUp">“わかるまで向き合う”
+              “わからないまま”<br class="u-hidden-spUp">のキャリアに<br class="u-hidden-pcLarge">
+              “わかるまで向き合う”
             </p>
             <p class="p-explain__text">
               頑張ってきた。ちゃんとやってきた。<br>
@@ -93,11 +95,9 @@
         </section>
         <section><!--メッセージ-->
           <div id="scrollUs" class="p-about">
-            <div class="p-about__left">
               <p class="c-title__num">About Us</p>
               <h1 class="c-title">私たちについて</h1>
-              <div class="c-text">
-                <p>
+              <p class="p-about__text c-text">
                   私たちは、エンジニア一人ひとりの“これから”に本気で向き合う集団です。<br>
                    技術は常に変わり続け、昨日までの正解が今日には通用しないこともあります。<br>
                    <br>
@@ -113,8 +113,6 @@
                   そして、AI時代に求められる、新しいエンジニアリング集団へ。 <br>
                   Saitekiは、その道のりを仲間とともに歩んでいきます。
                 </p>
-              </div>
-            </div>
               <!-- <img class="p-about__right" src="<?php echo get_template_directory_uri(); ?>/assets/images/common/aboutUs_img.png" alt="給与グラフ"> -->
           </div>
         </section>
@@ -143,6 +141,7 @@
                       <p class="c-text__businessItemText">
                        エンジニアがスキルアップし<br>
                        顧客単価が上がると、連動して給与がアップする仕組みです。<br>
+                       <br>
                        この仕組みにより、実力と努力が正当に評価され、公平で透明性の高い評価をすることができます。
                       </p>
                     </div>
@@ -153,7 +152,8 @@
                         <br>コミット
                       </p>
                       <p class="c-text__businessItemText">
-                        業界経験豊富な営業担当が優良案件を厳選。<br><br>
+                        業界経験豊富な営業担当が優良案件を厳選。<br>
+                        <br>
                         商流の浅い案件や高単価の案件を中心に紹介し、エンジニア還元率80%を目指します。
                       </p>
                     </div>
