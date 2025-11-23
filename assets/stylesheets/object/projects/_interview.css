@@ -1,0 +1,304 @@
+.p-interview {
+    max-width: 1280px;
+    height: 480px;
+    position: relative;
+    padding: 40px 110px;
+    margin: 0 auto;
+}
+
+.p-interview__imgWrap {
+    max-width: 1280px;
+    height: 400px;
+    background-image: url(../../../images/common/bafe7bf6aaaaf2a563aca3f39ed4fa87.jpg);
+    background-position-y: -75px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.p-interview__contentsWrap {
+    height: 400px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.p-interview__contentsLeft {
+    display: flex;
+    flex-flow: column;
+    gap: 2px;
+}
+
+.p-interview__contentsRight {
+    max-width: 531px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.p-interview__title {
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.p-interview__contentsLeftText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+}
+
+.p-interview__contentsLeftTitle {
+    font-size: 28px;
+    line-height: 40.54px;
+}
+
+.p-interview__button {
+    width: 270px;
+    height: 47px;
+    top: 196px;
+    left: 436px;
+    padding: 12px 24px;
+    gap: 10px;
+    border-radius: 56.5px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.p-interview__buttonText {
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.17px;
+    text-align: center;
+    color: #2D2D2D;
+}
+
+.p-interview:hover .p-interview__imgWrap {
+    transform: scale(1.03); 
+    z-index: 2;
+}
+
+.p-interview__img {
+    width: 100%;
+}
+
+.p-interview__contentsLeftText {
+    font-family: Noto Sans JP;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.68px;
+    color:#DEDEDE;
+}
+
+.p-interview__contentsLeftTitle {
+    font-family: Noto Sans JP;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57.92px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.p-interview__descBox {
+    width: 100%;
+    height: Hug (145px)px;
+    padding: 24px;
+    border-radius: 4px;
+    opacity: 0px;    
+    background-color: #9E9E9E;
+}
+
+.p-interview__descTitle {
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p-interview__descText {
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 834px) {
+    .p-interview {
+        height: 382px;
+        padding: 70px 75px;
+    }
+
+    .p-interview__contentsWrap {
+        height: auto;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .p-interview__textWrap  {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-flow: column;
+        gap: 16px;
+        padding: 0 16px;
+    }
+
+    .p-interview__contentsRight {
+        max-width: 642px;
+    }
+
+    .p-interview__imgWrap {
+        height: 382px;
+        background-position-y: 0;
+        top: 0;
+        background-size: 100%;
+    }
+
+    .p-interview__title {
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.6px;
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+    }
+
+    .p-interview__contentsLeftText {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.16px;
+    }
+    
+    .p-interview__contentsLeftTitle {
+        font-size: 28px;
+        line-height: 40.54px;
+    }
+
+    .p-interview__button {
+        width: 270px;
+        height: 47px;
+        padding: 12px 24px;
+        border-radius: 56.5px;
+        background-color: #FFFFFF;
+    }
+
+    .p-interview__buttonText {
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 23.17px;
+        text-align: center;
+        color: #2D2D2D;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .p-interview__imgWrap {
+        background-size: auto 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .p-interview {
+        height: 392px;
+        padding:  0 16px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .p-interview__contentsWrap {
+        padding: 0 16px;
+    }
+
+    .p-interview__imgWrap {
+        max-width: 390px;
+        height: 392px;
+        filter: brightness(60%);
+        background-position-y: 0;
+        background-position-x: -15px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .p-interview__textWrap  {
+        height: 400px;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        gap: 16px;
+        padding: 0 32px;
+    }
+
+    .p-interview__contentsLeft {
+        display: flex;
+        flex-flow: column;
+        gap: 2px;
+    }
+
+    .p-interview__contentsLeftTitle {
+        font-family: Noto Sans JP;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40.54px;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: Noto Sans JP;
+    }
+
+    .p-interview__contentsRight {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .p-interview__title {
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.6px;
+        letter-spacing: 0.005em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .p-interview__button {
+        width: 239px;
+        height: 47px;
+        padding: 12px 24px;
+        border-radius: 56.5px;
+        background-color: #FFFFFF;
+    }
+
+    .p-interview__buttonText {
+        font-family: Noto Sans JP;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 23.17px;
+        text-align: center;
+        color: #2D2D2D;
+    }
+}

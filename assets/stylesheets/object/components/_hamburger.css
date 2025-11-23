@@ -1,0 +1,57 @@
+@media screen and (max-width: 1125px) {
+  .c-hamburger {
+    position: absolute;
+    top: 19px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #183560;
+    border-color: #183560;
+    cursor: pointer;
+    z-index: 4;
+  }
+
+  .c-hamburger__bar {
+    display: block;
+    width: 22.5px;
+    height: 3px;
+    position: absolute;
+    left: 18px;
+    background: #FFFFFF;
+    transition: all 0.3s ease;
+  }
+
+  .c-hamburger__bar:nth-child(1) {
+    top: 20px;
+  }
+
+  .c-hamburger__bar:nth-child(2) {
+    top: 29px;
+    transform: translateY(-50%);
+  }
+
+  .c-hamburger__bar:nth-child(3) {
+    top: 38px;
+    transform: translateY(-100%);
+  }
+
+  .c-hamburger.is-active .c-hamburger__bar {
+    left: 18px;
+  }
+
+  .c-hamburger.is-active .c-hamburger__bar:nth-child(1) {
+    transform: rotate(45deg);
+    top: 27px;
+  }
+  
+  .c-hamburger.is-active .c-hamburger__bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .c-hamburger.is-active .c-hamburger__bar:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 27px;
+  }
+}

@@ -1,0 +1,20 @@
+.c-button {
+  font-size: .8rem;
+  color: #fff;
+  border-radius: 30px;
+  background-color: #ad7f02;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+  .c-button {
+    padding: 8px 30px;
+  }
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+  .c-button {
+    padding: 15px 100px;
+    text-align: center;
+    display: block;
+  }
+}

@@ -1,0 +1,44 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Node / build
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Composer / PHP
+vendor/
+composer.lock
+
+# Local development
+*.local
+/.vagrant/
+Homestead.yaml
+Homestead.json
+
+# WordPress
+wp-config.php
+wp-content/debug.log
+.sftp-config.json
+
+# Env / credentials
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Generated assets, build outputs
+assets/stylesheets/app.css.map
+assets/javascripts/*.map
+
+# Ignore large binaries (use Git LFS if needed)
+*.psd
+*.ai
+*.zip

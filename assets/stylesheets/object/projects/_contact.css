@@ -1,0 +1,303 @@
+.p-contact {
+  margin-top: 40px;
+}
+
+.p-contact__innner {
+  gap: 10px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding: 40px 76px;
+}
+
+.p-contact__contents {
+  display: flex;
+  flex-flow: column;
+  gap: 32px;
+  padding: 0 16px;
+}
+
+.p-contact__contentsItem {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.p-contact__wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.p-contact__labelBox {
+  width: 130px;
+}
+
+.p-contact__label {
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.17px;
+  text-align: left;
+  flex-grow: 0;
+}
+
+.p-contact__requireBox {
+    width: 57px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.p-contact__require {
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.17px;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.p-contact__form {
+  width: 100%;
+  height: 48px;
+  resize: none;
+  flex-grow: 1;
+  border: 1px solid #DEDEDE;
+  padding: 12px;
+}
+
+.p-contact__form::placeholder {
+  color:#DEDEDE;
+}
+
+.p-contact__contactForm {
+  width: 100%;
+  height: 125px;
+  resize: none;
+  flex-grow: 1;
+  border: 1px solid #DEDEDE;
+  padding: 12px;
+}
+
+.p-contact__contactForm::placeholder {
+  color: #DEDEDE;
+}
+
+.p-contact__fileLabelBox {
+  width: 195px;
+  display: flex;
+  align-items: center;
+}
+
+.p-contact__file {
+  width: 136px;
+  height: 47px;
+  padding: 12px;
+  background-color: #9E9E9E;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  min-width: 136px;
+  height: 47px;
+  padding: 12px;
+  cursor: pointer;
+  background-color: #9E9E9E;
+  color: white;
+  font-family: Noto Sans JP;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 23.17px;
+  text-align: center;
+}
+
+.p-contact__fileContents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.p-contact__fileText {
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.17px;
+  text-align: left;
+  color: #9E9E9E;
+}
+
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input.wpcf7-submit {
+  cursor: pointer;
+  width: 270px;
+  height: 47px;
+  border-radius: 56.5px;
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #183560;
+  border: 1px solid; 
+  /* ボタン周りのライン修正必要 */
+  line-height: 23.17px;
+  text-align: center;
+  color: #fff;
+} */
+
+input.wpcf7-submit:hover {
+  opacity: 50%;
+  color: #fff !important;
+}
+
+.wpcf7-submit:disabled {
+  background-color: #999;
+}
+
+.wpcf7-list-item {
+  display: flex;
+  gap: 5px;
+}
+
+.p-contact__privacyItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wpcf7-form-control-wrap span {
+  display: none;
+}
+
+#wpcf7-f13-o1-ve-your-consult {
+  color: red;
+}
+
+#wpcf7-f13-o1-ve-your-name {
+  color: red;
+}
+
+#wpcf7-f13-o1-ve-your-email {
+  color: red;
+}
+
+#wpcf7-f13-o1-ve-your-furigana {
+  color: red;
+}
+
+#wpcf7-f13-o1-ve-your-message {
+  color: red;
+}
+
+.wpcf7-not-valid-tip {
+  display: none;
+}
+
+/* input タグのスタイルを設定 */
+input[type="file"] {
+  font-size: 0.8em; /* フォントサイズを小さく */
+  white-space: pre-line; /* 改行を有効にする */
+  word-wrap: break-word; /* 長いテキストを折り返す */
+}
+
+input[type="file"]::after {
+  content: "\A"; /* 改行を追加 */
+  white-space: pre; /* 改行を保持 */
+  font-size: 0.8em; /* フォントサイズを小さく */
+}
+
+.wpcf7-response-output {
+  margin-top: 10px;
+  color: red;
+}
+
+@media screen and (max-width: 834px) {
+  .p-contact__innner {
+    padding: 40px 76px;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+  }
+
+  .p-contact__contentsItem {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .p-contact {
+    padding: 0;
+  }
+
+  .p-contact__innner {
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+    padding: 40px 8px;
+  }
+
+  .p-contact__head {
+    padding: 0 16px;
+    display: flex;
+    flex-flow: column;
+    gap: 2px;
+  }
+
+  .p-contact__contents {
+    padding: 0 8px;
+  }
+
+  .p-contact__labelBox {
+    width: auto;
+  }
+
+  .p-contact__contentsItem {
+    flex-wrap: wrap;
+  }
+
+  .p-contact__require {
+    font-size: 14px;
+  }
+
+  .p-contact__form {
+    padding: 8px;
+  }
+
+  .wpcf7 input[type="submit"] {
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.17px;
+  }
+
+  input.wpcf7-submit {
+    cursor: pointer;
+    width: 239px;
+    height: 47px;
+    padding: 12px 24px;
+    border-radius: 56.5px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23.17px;
+    text-align: center;
+  }
+
+  input[type="file"] {
+    width: 120px;
+  }
+}
+

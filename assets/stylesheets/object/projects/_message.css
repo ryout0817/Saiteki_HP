@@ -1,0 +1,77 @@
+.p-about {
+  padding: 40px 140px 40px 140px;
+  display: flex;
+  gap: 32px;
+}
+
+.p-about__left {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.68px;
+  letter-spacing: 0.05em;
+  color: #9E9E9E;
+  display: flex;
+  flex-flow: column;
+  gap: 24px;
+}
+
+.p-about__image {
+  max-width: 565px;
+  padding: 24px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 20px 0px 0px 0px;
+}
+
+.p-about__textEnglish {
+  font-family: cursive;
+  color: #ec9e9e;
+  transform: rotate(-10deg);
+  margin-top: 10px;
+  font-size: 3rem;
+  text-align: right;
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 1127px) {
+  .p-explain {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width:796px) and (max-width:1126px){
+  .p-explain {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .p-about__left{
+    display: none;
+  }
+
+  .p-about__right {
+    margin-left: 0;
+  }
+
+  .p-about__textEnglish {
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .p-explain {
+    font-size: 1.5rem;
+  }
+
+  .p-about__textEnglish {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .p-about {
+    padding: 40px 20px;
+  }
+}

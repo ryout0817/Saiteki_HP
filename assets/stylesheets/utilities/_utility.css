@@ -1,0 +1,44 @@
+.u-hidden { display: none !important; }
+
+@media screen and (min-width: 1126px) {
+  .u-hidden-pcLarge {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .u-hidden-pcMedium {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 834px) { /* pc */
+  .u-hidden-pc {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 834px) { /* タブレットサイズ以下 */
+  .u-hidden-tb {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 415px) { /* 390以上 */
+  .u-hidden-spUp {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 414px) { /* sp以下 */
+  .u-hidden-spUnder {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .br-pc::after {
+    content: "\A";
+    white-space: pre;
+  }
+}

@@ -1,0 +1,150 @@
+.c-title__num {
+  font-family: Outfit;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #9E9E9E;
+}
+
+.c-title {
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  color: #183560;
+}
+
+.c-text {
+  font-size: 16px;
+  line-height: 25.6px;
+  font-family: Noto Sans JP;
+  font-weight: 400;
+}
+
+.c-text p:not(:first-child)  {
+  margin-top: 22px;
+}
+
+.c-introduction {
+  margin-top: 18px;
+}
+
+.hyphen {
+  letter-spacing: -0.2em;
+  font-weight: 100;
+  margin: 0 10px 0 5px;
+}
+
+.c-title__business {
+  min-width: 200px;
+  font-family: Noto Sans JP;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34.75px;
+  letter-spacing: 0.005em;
+  color: #2D2D2D;
+}
+
+.c-text__business {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+.c-text__businessItemTitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  color: #183560;
+}
+
+.c-text__businessItemText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.c-title__sub {
+  font-family: Noto Sans JP;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.75px;
+  text-align: left;
+  color: #183560;
+}
+
+@media screen and (max-width: 834px) {
+  .c-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40.54px;
+    letter-spacing: 0.005em;
+  }
+
+  .c-title__num {
+    font-size: 16px;
+    line-height: 20.16px;
+  }
+
+  .c-title__businessNoneIcon {
+    line-height: 36px;
+  }
+
+  .p-company__title {
+    min-width: 130px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .c-title__num {
+    font-size: 16px;
+    line-height: 20.16px;
+  }
+
+  .c-title {
+    font-size: 28px;
+    line-height: 40.54px;
+  }
+
+  .c-text {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+
+  .c-text__businessItemTitle {
+    margin-top: 0;
+    font-family: Noto Sans JP;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    text-align: center;
+  }
+
+  .c-text__businessItemText {
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+  }
+
+  .c-title__business {
+    font-family: Noto Sans JP;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #2D2D2D;
+  }
+
+  .c-title__businessNoneIcon {
+    font-family: Noto Sans JP;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    text-align: left;
+  }
+}

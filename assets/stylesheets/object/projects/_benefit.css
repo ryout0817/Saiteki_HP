@@ -1,0 +1,79 @@
+.p-benefit {
+  padding: 40px 140px;
+}
+
+.p-benefit__introBox {
+  text-align: center;
+}
+
+.p-benefit__cardWrap {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 0 80px;
+}
+
+.p-benefit__card {
+  max-width: 320px;
+}
+
+.p-benefit__titleBox {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-benefit__title {
+  color: #ad7f02;
+  font-size: 1.6rem;
+}
+
+.p-benefit__imgBox {
+  margin: 45px auto 0;
+  width: 220px;
+  height: 220px;
+}
+
+.p-benefit__text {
+  margin-top: 55px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 795px) {
+  .p-benefit {
+    padding: 85px 0;
+  }
+
+  .p-benefit__cardWrap {
+    display: block;
+    text-align: center;
+  }
+
+  .p-benefit__card {
+    max-width: 100%;
+  }
+
+  .p-benefit__card:not(:first-child) {
+    margin-top: 50px;
+  }
+
+  .p-benefit__title {
+    color: #ad7f02;
+    font-size: 2rem;
+  }
+
+  .p-benefit__imgBox {
+    margin: 30px auto 0;
+    width: 270px;
+    height: 250px;
+  }
+
+  .p-benefit__text {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}

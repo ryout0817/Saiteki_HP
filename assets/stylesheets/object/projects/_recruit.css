@@ -1,0 +1,339 @@
+.p-recruit {
+  margin-top: 40px;
+}
+
+.p-recruit__inner {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.p-recruit__contents {
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+  padding: 40px 76px;
+}
+
+.p-recruit__caseNumbox {
+  width: 148px;
+  height: 51px;
+  gap: 0px;
+  border-radius: 20px 0px 20px 0px;
+  opacity: 0px;  
+  background-color: #183560;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.p-recruit__caseNum {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 51px;
+  letter-spacing: 0.005em;
+  text-align: center; 
+  color: #FFFFFF;
+}
+
+.p-recruit__titleBox {
+  text-align: center;
+}
+
+.p-recruit__caseBox {
+  margin: 0 auto;
+  padding: 24px 24px 32px 24px;
+  display: flex;
+  flex-flow: column;
+  gap: 32px;
+  border-radius: 20px;
+  background-color:#183560;
+}
+
+.p-recruit__mainTitleBox {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.p-recruit__textCase {
+  height: 18px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #FFFFFF;  
+}
+
+.p-recruit__itemCaseBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.p-recruit__titleCase {
+  height: 35px;
+  font-family: Noto Sans JP;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34.75px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.p-recruit__itemCase {
+  padding: 64px 24px;
+  gap: 4px;
+  border-radius: 20px;
+  opacity: 0px;
+  max-width: 405px;
+  background-color: #EDEFF7;
+  position: relative;
+}
+
+.p-recruit__caseTitle {
+  font-family: Noto Sans JP;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.005em;
+  text-align: center; 
+  color: #183560;
+  margin-top: 6px;
+}
+
+.p-recruit__caseContentBox {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.p-recruit__circle {
+  color: #183560;
+}
+
+.p-recruit__textCaseContent {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.p-recruit__textGray {
+  font-family: Noto Sans JP;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;  
+  color: #9E9E9E;
+}
+
+/* <!--福利厚生--> */
+.p-recruit__benefit {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+}
+
+.p-recruit__benefitContent {
+  display: flex;
+  gap: 10px;
+}
+.p-recruit__benefitContentsBox {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+}
+
+.p-recruit__benefitContentTitleBox {
+  min-width: 133.33px;
+  height: 211px;
+  border-radius: 4px;
+  background-color: #183560;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-recruit__benefitContentTitle {
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.17px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.p-recruit__benefitItemBox {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #F5F5F5;
+}
+
+.p-recruit__benefitItem {
+  padding: 8px;
+}
+
+.p-recruit__benefitItemText {
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.17px;
+  text-align: left;
+}
+
+/* <!--募集要項--> */
+.p-recruit__solveContentsBox {
+  margin-top: 24px;
+}
+
+.p-recruit__solveOpenBar {
+  height: 55px;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #F5F5F5;
+}
+
+.p-recruit__solveBarText {
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.17px;
+  text-align: left;
+}
+
+.p-recruit__solveItemInner {
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-flow: column;
+}
+
+.p-recruit__solveItemCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+
+.p-recruit__solveItemTitle {
+  min-width: 130px;
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.17px;
+  text-align: left;  
+}
+
+.p-recruit__solveItemText {
+  flex-grow: 1;
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.17px;
+  text-align: left;
+}
+
+@media screen and (max-width: 834px) {
+  .p-recruit__itemCaseBox {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .p-recruit__caseBox {
+    padding: 24px 24px 32px 24px;
+    gap: 32px;
+  }
+
+  .p-recruit__itemCase {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .p-recruit__benefitContentTitleBox {
+    min-width: 89.87px;
+    height: 260px;
+    border-radius: 4px;
+    background-color: #183560;
+  }
+
+  .p-recruit__benefitItem {
+    max-width: 862.22px;
+    left: 137.78px;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .p-recruit {
+    max-width: 390px;
+    padding: 0;
+  }
+
+  .p-recruit__inner {
+    padding: 40px 16px;
+  }
+
+  .p-recruit__contents {
+    padding: 0;
+  }
+
+  .p-recruit__benefitContentTitleBox {
+    min-width: 47.03px;
+    height: 330px;
+  }
+
+  .p-recruit__itemCaseBox {
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+  }
+  
+  .p-recruit__itemCase {
+    padding: 64px 24px 24px 24px;
+    height: auto;
+  }
+
+  .p-recruit__caseBox {
+    width: 100%;
+    padding: 24px 16px 16px 16px;
+    gap: 32px;
+  }
+
+  .p-recruit__titleContent {
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .p-recruit__benefitContentTitle {
+    text-align: center;
+  }
+
+  .p-recruit__benefitContent {
+    gap: 4px;
+}
+
+  .p-recruit__benefitItem {
+    height: auto;
+  }
+
+  .p-recruit__solveItemInner {
+    padding: 24px 0;
+  }
+
+  .p-recruit__solveItemTitle {
+    min-width: 80px;
+  }
+}

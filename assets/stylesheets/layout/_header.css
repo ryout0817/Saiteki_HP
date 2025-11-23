@@ -1,0 +1,10 @@
+.l-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: #FFFFFF;
+    border-bottom: 5px rgba(222, 222, 222, 1);
+} 
+

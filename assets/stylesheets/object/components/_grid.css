@@ -1,0 +1,13 @@
+/* .c-grid {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+.c-grid span {
+  border-right: 1px solid #ececec;
+  height: 100%;
+  width: 90%;
+  opacity: .4;
+} */
