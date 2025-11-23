@@ -115,7 +115,7 @@
                 </p>
               </div>
             </div>
-              <img class="p-about__right" src="<?php echo get_template_directory_uri(); ?>/assets/images/common/aboutUs_img.png" alt="給与グラフ">
+              <!-- <img class="p-about__right" src="<?php echo get_template_directory_uri(); ?>/assets/images/common/aboutUs_img.png" alt="給与グラフ"> -->
           </div>
         </section>
         <section><!--ビジネス-->
