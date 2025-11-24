@@ -171,7 +171,7 @@
                 </div>
                 <div class="p-business__contentsItem">
                   <div class="p-business__titleBox">
-                    <p class="c-title__business">SES業界<br class="u-hidden-spUnder">特化SaaS</p>
+                    <p class="c-title__business">SES特化営業支援<br class="u-hidden-spUnder">ツール</p>
                     <p class="c-text__business">SES営業は日々、数多くの情報を処理しエンジニアを案件へアサインしなければなりません。<br>メールを最大限に活用する商習慣であり情報管理が煩雑で手間がかかる営業をSaaSの提供でサポートします</p>
                   </div>
                 </div>
@@ -408,11 +408,11 @@
                 </div>
                 <div class="p-company__card">
                   <p class="p-company__title">事業内容</p>
-                  <p class="p-company__text">SES / SES業界特化SaaSの自社開発・販売 / IT業界特化事業承継支援</p>
+                  <p class="p-company__text">SES/SES業界特化SaaSの自社開発・販売/AI駆動型SI事業</p>
                 </div>
                 <div class="p-company__card">
                   <p class="p-company__title">資本金</p>
-                  <p class="p-company__text">1,300万円</p>
+                  <p class="p-company__text">1.63億円（資本準備金含む）</p>
                 </div>
               </div>
               <p class="c-title__sub">代表プロフィール</p>
@@ -431,38 +431,6 @@
                 <img class="p-company__exectImg" src="<?php echo get_template_directory_uri(); ?>/assets/images/common/exect_img.png" alt="代表写真">
               </div>
             </div>
-            <!-- 社長照会 -->
-            <!-- <div class="p-company__contents">
-              <div class="p-company__head">
-                <h1 class="c-title">戸塚直道のプロフィールやコメント・写真</h1>
-              </div>
-              <div class="p-company__cardBox">
-                <div class="p-company__card">
-                  <p class="p-company__title">会社名</p>
-                  <p class="p-company__text">株式会社Saiteki</p>
-                </div>
-                <div class="p-company__card">
-                  <p class="p-company__title">設立</p>
-                  <p class="p-company__text">2024年5月15日</p>
-                </div>
-                <div class="p-company__card">
-                  <p class="p-company__title">所在地</p>
-                  <p class="p-company__text">東京都中野区弥生町2-41-17  東京コンテンツインキュベーションセンター No.14</p>
-                </div>
-                <div class="p-company__card">
-                  <p class="p-company__title">代表者</p>
-                  <p class="p-company__text">代表取締役社長  <br class="u-hidden-spUp">戸塚 直道</p>
-                </div>
-                <div class="p-company__card">
-                  <p class="p-company__title">事業内容</p>
-                  <p class="p-company__text">SES / SES業界特化SaaSの自社開発・販売 / IT業界特化事業承継支援</p>
-                </div>
-                <div class="p-company__card">
-                  <p class="p-company__title">資本金</p>
-                  <p class="p-company__text">1,300万円</p>
-                </div>
-              </div>
-            </div> -->
           </div>
         </section>
         <!--お知らせ-->
