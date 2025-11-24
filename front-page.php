@@ -76,8 +76,7 @@
         <section><!--エクスプレイン-->
           <div class="p-explain">
             <p class="p-explain__title">
-              “わからないまま”<br class="u-hidden-spUp">のキャリアに<br class="u-hidden-pcLarge">
-              “わかるまで向き合う”
+              “わからないまま”<br class="u-hidden-spUp">のキャリアに<br class="u-hidden-pcLarge">“わかるまで向き合う”
             </p>
             <p class="p-explain__text">
               頑張ってきた。ちゃんとやってきた。<br>
