@@ -63,9 +63,7 @@
             <!-- <img class="p-firstview__logo u-hidden-tb" src="<?php echo get_template_directory_uri(); ?>/assets/images/common/Logo.png" alt="ヘッダーロゴ"> -->
             <div class="p-firstview__contents">
               <p class="p-firstview__title">
-                エンジニアの<br class="u-hidden-spUp">
-                キャリアに<br class="u-hidden-spUp"><br class="u-hidden-spUnder"><br class="u-hidden-spUp u-hidden-spUnder">
-                徹底的に<br class="u-hidden-spUp">向き合い続ける
+                エンジニアの<br class="u-hidden-tbUp">キャリアに<br>徹底的に<br class="u-hidden-tbUp">向き合い続ける
               </p>
               <p class="p-firstview__text">
               「適切にキャリアアップができない」「生成AIの台頭を不安に感じる」<br>
@@ -175,13 +173,16 @@
                 <div class="p-business__contentsItem">
                   <div class="p-business__titleBox">
                     <p class="c-title__business">SES業界<br class="u-hidden-spUnder">特化SaaS</p>
-                    <p class="c-text__business">SES業界にはさまざまな課題が存在しています。中でも多重下請け構造は大きな課題であると認識しており、その課題を解消するSaaSを開発中です。</p>
+                    <p class="c-text__business">SES営業は日々、数多くの情報を処理しエンジニアを案件へアサインしなければなりません。<br>メールを最大限に活用する商習慣であり情報管理が煩雑で手間がかかる営業をSaaSの提供でサポートします</p>
                   </div>
                 </div>
                 <div class="p-business__contentsItem">
                   <div class="p-business__titleBox">
-                    <p class="c-title__business">IT業界特化<br class="u-hidden-spUnder">事業承継支援</p>
-                    <p class="c-text__business  ">SES企業の中にはオーナーが事業承継に悩む企業も数多く存在しています。事業承継にかかるお悩みのご相談を受け、時に提携先をご紹介しながら適切な承継手段についてご助言を行います。</p>
+                    <p class="c-title__business">AI駆動型<br class="u-hidden-spUnder">受託開発事業</p>
+                    <p class="c-text__business  ">Saitekiでは生成AIに常にキャッチアップすべく株式会社Uravation・佐藤傑氏を顧問として迎え入れ、
+                      生成AIを用いたAI駆動開発へのキャッチアップができるよう社内のコンテンツを充実させています。
+                      熟練したエンジニアが生成AIを使いこなし受託開発事業を推進、顧客に価値を届けています。
+                    </p>
                   </div>
                 </div>
               </div>
