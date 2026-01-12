@@ -1,0 +1,97 @@
+<div class="p-contact__contents">
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__wrap">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">ご相談内容</label>
+      </div>
+      <div class="p-contact__requireBox">
+        <p class="p-contact__require">必須</p>
+      </div>
+    </div>
+    [select your-consult class:p-contact__select class:p-contact__form first_as_label "選択してください" "カジュアル面談" "BP協業"]
+  </div>
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__wrap">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">お名前</label>
+      </div>
+      <div class="p-contact__requireBox">
+        <p class="p-contact__require">必須</p>
+      </div>
+    </div>
+    [text your-name autocomplete:name class:p-contact__form placeholder "山田　太郎"]
+  </div>
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__wrap">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">フリガナ</label>
+      </div>
+      <div class="p-contact__requireBox">
+        <p class="p-contact__require">必須</p>
+      </div>
+    </div>
+    [text your-furigana autocomplete:furigana class:p-contact__furigana class:p-contact__form placeholder "ヤマダ　タロウ"]
+  </div>
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__wrap">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">会社名</label>
+      </div>
+      <div class="p-contact__requireBox">
+        <p class="p-contact__require">必須</p>
+      </div>
+    </div>
+    [text your-company autocomplete:company class:p-contact__furigana class:p-contact__form placeholder "株式会社Saiteki"]
+  </div>
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__wrap">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">部署・役職</label>
+      </div>
+      <div class="p-contact__requireBox">
+        <p class="p-contact__require">必須</p>
+      </div>
+    </div>
+    [text your-department autocomplete:department class:p-contact__furigana class:p-contact__form placeholder "営業部・部長"]
+  </div>
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__wrap">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">メールアドレス</label>
+      </div>
+      <div class="p-contact__requireBox">
+        <p class="p-contact__require">必須</p>
+      </div>
+    </div>
+    [email your-email autocomplete:email class:p-contact__form placeholder "saiteki@gmail.com"]
+  </div>
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__wrap">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">お問い合わせ内容</label>
+      </div>
+      <div class="p-contact__requireBox">
+        <p class="p-contact__require">必須</p>
+      </div>
+    </div>
+    [textarea your-message class:p-contact__contactForm placeholder "お問い合わせの内容を入力してください"]
+  </div>
+  <div class="p-contact__contentsItem">
+    <div class="p-contact__fileLabelBox">
+      <div class="p-contact__labelBox">
+        <label class="p-contact__label">添付ファイル</label>
+      </div>
+    </div>
+      [file your-file limit:3mb filetypes:jpg|jpeg|png|gif|pdf]
+      <p class="p-contact__fileText">※選考希望の方は、その旨を記載の上、履歴書・職務経歴書を添付いただけますと選考がスムーズに進みます。</p>
+  </div>
+  <div class="p-contact__privacyItem">
+    [acceptance your-privacy class:p-privacy__checkbox]
+    <a href="https://drive.google.com/file/d/17nm74cGOSHGbZVl2VSucyp8BRv2v5Cez/view" target="_blank" style="text-decoration: underline; color: #4485f4;"><p class="p-contact__privacyText">プライバシーポリシー</a>に同意する</p>
+  </div> 
+  <div class="p-contact__contentsItem">
+    <div class="btn-submit">
+      [submit "送信する"]
+    </div>
+  </div>
+</div>
